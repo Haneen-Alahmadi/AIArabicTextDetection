@@ -1,0 +1,16 @@
+datasets
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyter
+nltk
+arabicstopwords
+pyarabic
+transformers
+torch
+gensim
+xgboost
+wordcloud
+camel_tools

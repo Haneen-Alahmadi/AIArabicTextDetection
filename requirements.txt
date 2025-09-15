@@ -6,7 +6,6 @@ matplotlib
 seaborn
 jupyter
 nltk
-arabicstopwords
 pyarabic
 transformers
 torch

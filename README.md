@@ -7,27 +7,28 @@
 AIArabicTextDetection/
 │
 ├── **data/**  
-│   ├── **raw/**    
-│       ├── **by_polishing/**      
-│       ├── **from_title/**
-│       ├── **from_title_and_content/**
-│   ├── **processed/**  
-│       ├── `AIArabic_binary.csv` 
-│   ├── **external/**     
+│   ├── **raw/**                 
+│   │   ├── **by_polishing/**  
+│   │   ├── **from_title/**  
+│   │   └── **from_title_and_content/**  
+│   ├── **processed/**         
+│   │   └── `AIArabic_binary.csv`  
+│   └── **external/**          
 │
-├── **notebooks/**   
-│   ├── `phase1Data_acquisition.ipynb` 
+├── **notebooks/**               
+│   └── `phase1Data_acquisition.ipynb`  
 │
-├── **src/**                
+├── **src/**                    
 │
-├── **models/**              
-├── **reports/**           
-│   ├── **figures/**      
-│   └── **presentations/**   
-├── **docs/**              
-├── `README.md`           
-├── `requirements.txt`     
-└── `.gitignore`           
+├── **models/**                  
+├── **reports/**                 
+│   ├── **figures/**             
+│   └── **presentations/**       
+├── **docs/**                    
+├── `README.md`                 
+├── `requirements.txt`          
+└── `.gitignore`                
+          
 
 ## requirements
 - pip install -r requirements

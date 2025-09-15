@@ -6,27 +6,28 @@
 ## Structure
 AIArabicTextDetection/
 │
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── external/
+├── **data/**  
+│   ├── **raw/**    
+│       ├── **by_polishing/**      
+│       ├── **from_title/**
+│       ├── **from_title_and_content/**
+│   ├── **processed/**  
+│       ├── `AIArabic_binary.csv` 
+│   ├── **external/**     
 │
-├── notebooks/
+├── **notebooks/**   
+│   ├── `phase1Data_acquisition.ipynb` 
 │
-├── src/
-│   ├── data_preparation.py
-│   ├── modeling.py
-│   ├── visualization.py
-│   └── utils.py
+├── **src/**                
 │
-├── models/
-├── reports/
-│   ├── figures/
-│   └── presentations/
-├── docs/
-├── README.md
-├── requirements.txt
-└── .gitignore
+├── **models/**              
+├── **reports/**           
+│   ├── **figures/**      
+│   └── **presentations/**   
+├── **docs/**              
+├── `README.md`           
+├── `requirements.txt`     
+└── `.gitignore`           
 
 ## requirements
 - pip install -r requirements

@@ -4,24 +4,21 @@
 - KFUPM-JRCAI/arabic-generated-abstracts 
 
 ## Structure
-AIArabicTextDetection/
-│
+**AIArabicTextDetection/**
+
 ├── **data/**  
-│   ├── **raw/**                 
+│   ├── **raw/**               
 │   │   ├── **by_polishing/**  
 │   │   ├── **from_title/**  
 │   │   └── **from_title_and_content/**  
-│   ├── **processed/**         
-│   │   └── `AIArabic_binary.csv`
+│   ├── **processed/**           
+│   │   ├── `AIArabic_binary.csv`  
 │   │   └── `AIArabic_binary_clean.csv`  
-│   └── **external/**          
-│
+│   └── **external/**                   
 ├── **notebooks/**               
 │   └── `phase1Data_acquisition.ipynb`  
 │   └── `phase2Preprocessing.ipynb`  
-│
 ├── **src/**                    
-│
 ├── **models/**                  
 ├── **reports/**                 
 │   ├── **figures/**             

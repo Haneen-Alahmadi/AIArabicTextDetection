@@ -16,7 +16,7 @@
 │   │   └── `AIArabic_binary_clean.csv`  
 │   └── **external/**                   
 ├── **notebooks/**               
-│   └── `phase1Data_acquisition.ipynb`  
+│   ├── `phase1Data_acquisition.ipynb`  
 │   └── `phase2Preprocessing.ipynb`  
 ├── **src/**                    
 ├── **models/**                  

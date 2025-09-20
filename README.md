@@ -12,11 +12,13 @@ AIArabicTextDetection/
 │   │   ├── **from_title/**  
 │   │   └── **from_title_and_content/**  
 │   ├── **processed/**         
-│   │   └── `AIArabic_binary.csv`  
+│   │   └── `AIArabic_binary.csv`
+│   │   └── `AIArabic_binary_clean.csv`  
 │   └── **external/**          
 │
 ├── **notebooks/**               
 │   └── `phase1Data_acquisition.ipynb`  
+│   └── `phase2Preprocessing.ipynb`  
 │
 ├── **src/**                    
 │
